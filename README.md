@@ -11,3 +11,10 @@ for cold (bluish) color use negative number -1 - -100
 # Example
  Run `go run main.go ./images/yourJPEGimages.jpeg 1` in the terminal \
 the output will be `./images/output.jpeg` in the `images` folder
+
+another example
+- cooler
+  `go run main.go ./images/one.jpeg -40`
+
+- warmer
+  `go run main.go ./images/one.jpeg 50`
